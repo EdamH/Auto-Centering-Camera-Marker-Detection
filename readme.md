@@ -255,6 +255,14 @@ The user interface prioritizes clarity and usability, focusing on presenting ess
     <img src="./images/app4.jpg" alt="Histogram" width="200" />
 </div>
 
+## Collaborators
+<a href="https://https://github.com/EdamH/Auto-Centering-Camera-Marker-Detection/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=EdamH/Auto-Centering-Camera-Marker-Detection" />
+  
+</a>
+
+
+# Feel free to contribute!
 
 
 
