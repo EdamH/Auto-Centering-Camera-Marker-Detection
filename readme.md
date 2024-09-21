@@ -68,7 +68,7 @@ Currently, the project uses the following technologies:
 ### Computer Vision
 - The approach overview is depicted in Figure 3.3, which outlines the steps taken to provide the necessary offsets to the system.
 - The camera captures frames, which are processed by the computer vision algorithm on the Raspberry Pi to calculate deviations from the desired position across three axes.
-  ![Computer Vision](./images/computervisionflow.jpg)
+  ![Computer Vision](./images/computerVisionflow.jpg)
 
 ## 3D Modeling
 
@@ -167,7 +167,7 @@ The communication involves initialization, data transmission triggers, and ackno
 ## Cross Detection
 
 ### Approach Overview
-![Approach Overview](./images/computerVisionflow.png)
+![Approach Overview](./images/computervisionflow.png)
 
 ### Contour Detection
 ![Contour Detection Pipeline](./images/5.png)
