@@ -68,7 +68,10 @@ Currently, the project uses the following technologies:
 ### Computer Vision
 - The approach overview is depicted in Figure 3.3, which outlines the steps taken to provide the necessary offsets to the system.
 - The camera captures frames, which are processed by the computer vision algorithm on the Raspberry Pi to calculate deviations from the desired position across three axes.
-  ![Computer Vision](./images/computerVisionflow.jpg)
+
+<div style="text-align: center;">
+    <img src="./images/computerVisionflow.jpg" alt="Computer Vision" />
+</div>
 
 ## 3D Modeling
 
@@ -157,7 +160,9 @@ After evaluation, UART was chosen for its simplicity and sufficient data rate, a
   - GND pins connected for a common ground reference.
 
 #### Protocol Workflow
-![Protocol Workflow](./images/diagramme.png)
+<div style="text-align: center;">
+    <img src="./images/diagramme.png" alt="Protocol Workflow" />
+</div>
 
 The communication involves initialization, data transmission triggers, and acknowledgment of received data between the Raspberry Pi and ESP32.
 
