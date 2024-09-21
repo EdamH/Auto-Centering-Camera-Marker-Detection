@@ -157,7 +157,7 @@ After evaluation, UART was chosen for its simplicity and sufficient data rate, a
   - GND pins connected for a common ground reference.
 
 #### Protocol Workflow
-![Protocol Workflow](./images/Diagramme%20vierge.png)
+![Protocol Workflow](./images/diagramme.png)
 
 The communication involves initialization, data transmission triggers, and acknowledgment of received data between the Raspberry Pi and ESP32.
 
@@ -239,7 +239,7 @@ In addition to real-time data presentation, the app generates a histogram visual
 
 The user interface prioritizes clarity and usability, focusing on presenting essential data in an intuitive format.
 
-![Bluetooth Sequence](./images/sequence.png)
+![Bluetooth Sequence](./images/sequence.jpg)
 
 
 ### Screenshots of the Application
