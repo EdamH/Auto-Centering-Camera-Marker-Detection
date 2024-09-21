@@ -66,10 +66,9 @@ Currently, the project uses the following technologies:
 ## 4.2- Software Architecture
 
 ### Computer Vision
-- The approach overview is depicted in Figure, which outlines the steps taken to provide the necessary offsets to the system.
+- The approach overview is depicted in Figure 3.3, which outlines the steps taken to provide the necessary offsets to the system.
 - The camera captures frames, which are processed by the computer vision algorithm on the Raspberry Pi to calculate deviations from the desired position across three axes.
-
-![Computer Vision](./images/computervisionflow.jpg)
+  ![Computer Vision](./images/computervisionflow.jpg)
 
 ## 3D Modeling
 
@@ -112,7 +111,7 @@ The schematic includes:
 ### PCB
 ![Bottom PCB](./images/botton.png)  
 ![Top PCB](./images/top.png)  
-![Manufactured PCB](./images/pmu.jpeg)
+![Manufactured PCB](./images/PMU.jpeg)
 
 ## Energy Consumption
 
@@ -158,8 +157,7 @@ After evaluation, UART was chosen for its simplicity and sufficient data rate, a
   - GND pins connected for a common ground reference.
 
 #### Protocol Workflow
-![Protocol Workflow](./images/Diagramme_vierge.png)
-
+![Protocol Workflow](./images/Diagramme%20vierge.png)
 
 The communication involves initialization, data transmission triggers, and acknowledgment of received data between the Raspberry Pi and ESP32.
 
@@ -169,7 +167,7 @@ The communication involves initialization, data transmission triggers, and ackno
 ## Cross Detection
 
 ### Approach Overview
-![Approach Overview](./images/computervisionflow.png)
+![Approach Overview](./images/computerVisionflow.png)
 
 ### Contour Detection
 ![Contour Detection Pipeline](./images/5.png)
@@ -241,7 +239,8 @@ In addition to real-time data presentation, the app generates a histogram visual
 
 The user interface prioritizes clarity and usability, focusing on presenting essential data in an intuitive format.
 
-![Bluetooth Sequence](./images/sequence.jpg)
+![Bluetooth Sequence](./images/sequence.png)
+
 
 ### Screenshots of the Application
 <div style="display: flex; justify-content: space-around;">
@@ -250,11 +249,6 @@ The user interface prioritizes clarity and usability, focusing on presenting ess
     <img src="./images/app3.jpg" alt="Measurements" width="200" />
     <img src="./images/app4.jpg" alt="Histogram" width="200" />
 </div>
-
-
-
-
-
 
 
 
