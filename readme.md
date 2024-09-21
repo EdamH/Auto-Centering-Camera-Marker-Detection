@@ -66,10 +66,11 @@ Currently, the project uses the following technologies:
 ## 4.2- Software Architecture
 
 ### Computer Vision
-- The approach overview is depicted in Figure 3.3, which outlines the steps taken to provide the necessary offsets to the system.
+- The approach overview is depicted in Figure, which outlines the steps taken to provide the necessary offsets to the system.
 - The camera captures frames, which are processed by the computer vision algorithm on the Raspberry Pi to calculate deviations from the desired position across three axes.
-  ![Computer Vision](./images/computervisionflow.png)
-
+<div style="text-align: center;">
+    <img src="./images/computervisionflow.jpg" alt="Computer Vision" />
+</div>
 ## 3D Modeling
 
 This section highlights the various components we modeled for our solution. Since the mechanical aspect of the project was not the main focus, we do not go into detail on the technical drawings.
@@ -157,7 +158,9 @@ After evaluation, UART was chosen for its simplicity and sufficient data rate, a
   - GND pins connected for a common ground reference.
 
 #### Protocol Workflow
-![Protocol Workflow](./images/Diagramme%20vierge.png)
+<div style="text-align: center;">
+    <img src="./images/Diagramme%20vierge.png" alt="Protocol Workflow" />
+</div>
 
 The communication involves initialization, data transmission triggers, and acknowledgment of received data between the Raspberry Pi and ESP32.
 
@@ -238,6 +241,11 @@ The mobile app processes incoming data to compute and display precise timestamps
 In addition to real-time data presentation, the app generates a histogram visualizing the distribution of measurements over time. This provides users with accurate, time-stamped information and insights into the temporal distribution of measurements within each cycle.
 
 The user interface prioritizes clarity and usability, focusing on presenting essential data in an intuitive format.
+
+<div style="text-align: center;">
+    <img src="./images/sequence.jpg" alt="Bluetooth Sequence" />
+</div>
+
 
 ### Screenshots of the Application
 <div style="display: flex; justify-content: space-around;">
