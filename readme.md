@@ -68,9 +68,9 @@ Currently, the project uses the following technologies:
 ### Computer Vision
 - The approach overview is depicted in Figure, which outlines the steps taken to provide the necessary offsets to the system.
 - The camera captures frames, which are processed by the computer vision algorithm on the Raspberry Pi to calculate deviations from the desired position across three axes.
-<div style="text-align: center;">
-    <img src="./images/computervisionflow.jpg" alt="Computer Vision" />
-</div>
+
+![Computer Vision](./images/computervisionflow.jpg)
+
 ## 3D Modeling
 
 This section highlights the various components we modeled for our solution. Since the mechanical aspect of the project was not the main focus, we do not go into detail on the technical drawings.
@@ -158,9 +158,8 @@ After evaluation, UART was chosen for its simplicity and sufficient data rate, a
   - GND pins connected for a common ground reference.
 
 #### Protocol Workflow
-<div style="text-align: center;">
-    <img src="./images/Diagramme%20vierge.png" alt="Protocol Workflow" />
-</div>
+![Protocol Workflow](./images/Diagramme_vierge.png)
+
 
 The communication involves initialization, data transmission triggers, and acknowledgment of received data between the Raspberry Pi and ESP32.
 
@@ -242,10 +241,7 @@ In addition to real-time data presentation, the app generates a histogram visual
 
 The user interface prioritizes clarity and usability, focusing on presenting essential data in an intuitive format.
 
-<div style="text-align: center;">
-    <img src="./images/sequence.jpg" alt="Bluetooth Sequence" />
-</div>
-
+![Bluetooth Sequence](./images/sequence.jpg)
 
 ### Screenshots of the Application
 <div style="display: flex; justify-content: space-around;">
@@ -254,6 +250,11 @@ The user interface prioritizes clarity and usability, focusing on presenting ess
     <img src="./images/app3.jpg" alt="Measurements" width="200" />
     <img src="./images/app4.jpg" alt="Histogram" width="200" />
 </div>
+
+
+
+
+
 
 
 
