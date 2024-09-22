@@ -1,0 +1,278 @@
+UNITS=INCH
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+
+#
+#Component attribute text strings
+#
+
+# CMP 0
+CMP 14 0.0937008 0.7244094 270 N Pi1 TSW-120-24-F-D ;0=2,1=0.3728
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.samtec.com'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samtec.com/documents/webfiles/pdf/TSW_TH.PDF'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.samtec.com/documents/webfiles/cpdf/TSW-XXX-XX-XXX-X-XX-XXX-MKT.pdf'
+PRP DatasheetVersion 'F-214'
+PRP Manufacturer 'Samtec'
+PRP Mounting_Technology 'Through-hole'
+PRP Orientation 'Vertical'
+PRP PackageDescription '.025[0.64] SQ. Post Terminal Strip Assembly'
+PRP PackageReference 'TSW-120-24-X-D'
+PRP PackageVersion 'DM, 8/1988'
+PRP PartNumber 'TSW-120-24-F-D'
+PRP Pitch '2.54 mm'
+PRP RoHS 'True'
+PRP Temperature_Range '-55 to 125 degC'
+TOP 0 0.0937008 0.7244094 270 N 0 15 1
+TOP 1 0.1937008 0.7244094 270 N 0 3 2
+TOP 2 0.0937008 0.8244094 270 N 0 16 3
+TOP 3 0.1937008 0.8244094 270 N 15 1 4
+TOP 4 0.0937008 0.9244094 270 N 0 17 5
+TOP 5 0.1937008 0.9244094 270 N 50 17 6
+TOP 6 0.0937008 1.0244094 270 N 0 18 7
+TOP 7 0.1937008 1.0244094 270 N 14 1 8
+TOP 8 0.0937008 1.1244094 270 N 0 19 9
+TOP 9 0.1937008 1.1244094 270 N 13 1 10
+TOP 10 0.0937008 1.2244094 270 N 0 20 11
+TOP 11 0.1937008 1.2244094 270 N 0 4 12
+TOP 12 0.0937008 1.3244094 270 N 0 21 13
+TOP 13 0.1937008 1.3244094 270 N 0 5 14
+TOP 14 0.0937008 1.4244094 270 N 0 22 15
+TOP 15 0.1937008 1.4244094 270 N 12 1 16
+TOP 16 0.0937008 1.5244094 270 N 0 23 17
+TOP 17 0.1937008 1.5244094 270 N 11 1 18
+TOP 18 0.0937008 1.6244094 270 N 0 24 19
+TOP 19 0.1937008 1.6244094 270 N 0 6 20
+TOP 20 0.0937008 1.7244094 270 N 0 25 21
+TOP 21 0.1937008 1.7244094 270 N 10 1 22
+TOP 22 0.0937008 1.8244094 270 N 0 26 23
+TOP 23 0.1937008 1.8244094 270 N 0 7 24
+TOP 24 0.0937008 1.9244094 270 N 0 27 25
+TOP 25 0.1937008 1.9244094 270 N 0 8 26
+TOP 26 0.0937008 2.0244094 270 N 0 28 27
+TOP 27 0.1937008 2.0244094 270 N 0 9 28
+TOP 28 0.0937008 2.1244094 270 N 0 29 29
+TOP 29 0.1937008 2.1244094 270 N 0 10 30
+TOP 30 0.0937008 2.2244094 270 N 0 30 31
+TOP 31 0.1937008 2.2244094 270 N 0 11 32
+TOP 32 0.0937008 2.3244094 270 N 0 31 33
+TOP 33 0.1937008 2.3244094 270 N 0 12 34
+TOP 34 0.0937008 2.4244094 270 N 0 32 35
+TOP 35 0.1937008 2.4244094 270 N 9 1 36
+TOP 36 0.0937008 2.5244094 270 N 0 33 37
+TOP 37 0.1937008 2.5244094 270 N 0 13 38
+TOP 38 0.0937008 2.6244094 270 N 0 34 39
+TOP 39 0.1937008 2.6244094 270 N 0 14 40
+#
+# CMP 1
+CMP 0 1.6535433 0.1574803 270 N B-3 empty_part_name ;0=2,1=0.3362
+PRP Color 'Black'
+PRP Connector_Type 'Male Pin'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Copper'
+PRP Contact_Mating_Length '5.9944mm'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '20mO'
+PRP Current_Rating '3A'
+PRP Gender 'Male'
+PRP Height '8.94mm'
+PRP Housing_Material 'PBT'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '2.54mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP NexarPartId '20081794'
+PRP Number_of_Contacts '2'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions '2'
+PRP Number_of_Rows '1'
+PRP Operating_Supply_Voltage '250V'
+PRP Orientation 'Vertical'
+PRP Packaging 'Bulk'
+PRP Pitch '2.54mm'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS 'Compliant'
+PRP Termination 'Through Hole'
+PRP Voltage_Rating '250V'
+TOP 0 1.6535433 0.1074803 270 N 31 6 1
+TOP 1 1.6535433 0.2074803 270 N 33 5 2
+#
+# CMP 2
+CMP 0 1.3385827 0.1574803 270 N B-2 empty_part_name ;0=2,1=0.3362
+PRP Color 'Black'
+PRP Connector_Type 'Male Pin'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Copper'
+PRP Contact_Mating_Length '5.9944mm'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '20mO'
+PRP Current_Rating '3A'
+PRP Gender 'Male'
+PRP Height '8.94mm'
+PRP Housing_Material 'PBT'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '2.54mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP NexarPartId '20081794'
+PRP Number_of_Contacts '2'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions '2'
+PRP Number_of_Rows '1'
+PRP Operating_Supply_Voltage '250V'
+PRP Orientation 'Vertical'
+PRP Packaging 'Bulk'
+PRP Pitch '2.54mm'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS 'Compliant'
+PRP Termination 'Through Hole'
+PRP Voltage_Rating '250V'
+TOP 0 1.3385827 0.1074803 270 N 31 5 1
+TOP 1 1.3385827 0.2074803 270 N 33 4 2
+#
+# CMP 3
+CMP 0 1.023622 0.1574803 270 N B-1 empty_part_name ;0=2,1=0.3362
+PRP Color 'Black'
+PRP Connector_Type 'Male Pin'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Copper'
+PRP Contact_Mating_Length '5.9944mm'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '20mO'
+PRP Current_Rating '3A'
+PRP Gender 'Male'
+PRP Height '8.94mm'
+PRP Housing_Material 'PBT'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '2.54mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP NexarPartId '20081794'
+PRP Number_of_Contacts '2'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions '2'
+PRP Number_of_Rows '1'
+PRP Operating_Supply_Voltage '250V'
+PRP Orientation 'Vertical'
+PRP Packaging 'Bulk'
+PRP Pitch '2.54mm'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS 'Compliant'
+PRP Termination 'Through Hole'
+PRP Voltage_Rating '250V'
+TOP 0 1.023622 0.1074803 270 N 31 4 1
+TOP 1 1.023622 0.2074803 270 N 33 1 2
+#
+# CMP 4
+CMP 0 0.7086614 0.1574803 270 N B+3 empty_part_name ;0=2,1=0.3362
+PRP Color 'Black'
+PRP Connector_Type 'Male Pin'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Copper'
+PRP Contact_Mating_Length '5.9944mm'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '20mO'
+PRP Current_Rating '3A'
+PRP Gender 'Male'
+PRP Height '8.94mm'
+PRP Housing_Material 'PBT'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '2.54mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP NexarPartId '20081794'
+PRP Number_of_Contacts '2'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions '2'
+PRP Number_of_Rows '1'
+PRP Operating_Supply_Voltage '250V'
+PRP Orientation 'Vertical'
+PRP Packaging 'Bulk'
+PRP Pitch '2.54mm'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS 'Compliant'
+PRP Termination 'Through Hole'
+PRP Voltage_Rating '250V'
+TOP 0 0.7086614 0.1074803 270 N 33 6 1
+TOP 1 0.7086614 0.2074803 270 N 32 4 2
+#
+# CMP 5
+CMP 0 0.3937008 0.1574803 270 N B+2 empty_part_name ;0=2,1=0.3362
+PRP Color 'Black'
+PRP Connector_Type 'Male Pin'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Copper'
+PRP Contact_Mating_Length '5.9944mm'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '20mO'
+PRP Current_Rating '3A'
+PRP Gender 'Male'
+PRP Height '8.94mm'
+PRP Housing_Material 'PBT'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '2.54mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP NexarPartId '20081794'
+PRP Number_of_Contacts '2'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions '2'
+PRP Number_of_Rows '1'
+PRP Operating_Supply_Voltage '250V'
+PRP Orientation 'Vertical'
+PRP Packaging 'Bulk'
+PRP Pitch '2.54mm'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS 'Compliant'
+PRP Termination 'Through Hole'
+PRP Voltage_Rating '250V'
+TOP 0 0.3937008 0.1074803 270 N 33 3 1
+TOP 1 0.3937008 0.2074803 270 N 32 3 2
+#
+# CMP 6
+CMP 0 0.0787402 0.1574803 270 N B+1 empty_part_name ;0=2,1=0.3362
+PRP Color 'Black'
+PRP Connector_Type 'Male Pin'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Copper'
+PRP Contact_Mating_Length '5.9944mm'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '20mO'
+PRP Current_Rating '3A'
+PRP Gender 'Male'
+PRP Height '8.94mm'
+PRP Housing_Material 'PBT'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '2.54mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP NexarPartId '20081794'
+PRP Number_of_Contacts '2'
+PRP Number_of_Pins '2'
+PRP Number_of_Positions '2'
+PRP Number_of_Rows '1'
+PRP Operating_Supply_Voltage '250V'
+PRP Orientation 'Vertical'
+PRP Packaging 'Bulk'
+PRP Pitch '2.54mm'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS 'Compliant'
+PRP Termination 'Through Hole'
+PRP Voltage_Rating '250V'
+TOP 0 0.0787402 0.1074803 270 N 33 2 1
+TOP 1 0.0787402 0.2074803 270 N 32 2 2
+#

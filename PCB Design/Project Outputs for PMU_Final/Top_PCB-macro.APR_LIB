@@ -1,0 +1,9 @@
+G04:AMPARAMS|DCode=29|XSize=87.01mil|YSize=60.24mil|CornerRadius=4.52mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|*
+%AMROUNDEDRECTD29*
+21,1,0.08701,0.05120,0,0,180.0*
+21,1,0.07797,0.06024,0,0,180.0*
+1,1,0.00904,-0.03899,0.02560*
+1,1,0.00904,0.03899,0.02560*
+1,1,0.00904,0.03899,-0.02560*
+1,1,0.00904,-0.03899,-0.02560*
+%
