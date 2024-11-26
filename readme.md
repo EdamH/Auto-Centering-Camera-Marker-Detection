@@ -1,6 +1,6 @@
 # Development of an Intelligent Camera System for the Detection & Automatic Centering of Markers
 
-## 1- Brief Description
+## 1- Brief Description : 
 
 The motivation behind this project stems from the need to enhance the safety, efficiency,
 and accuracy of power line inspections. Traditional methods, which often involve
@@ -10,7 +10,7 @@ using advanced algorithms, embedded systems, and wireless communication,
 this project aims to offer a more reliable and scalable solution that can adapt to various
 geographical and environmental conditions.
 
-## 2- Requirements and coverage
+## 2- Requirements and coverage :
 
 - [x] The system must detect markers in images and their offset from the desired position (e.g., using an algorithm like Canny edge detection)
 - [x] The system must include an embedded controller to correct the camera position across all three axes (e.g., using servo motors)
@@ -20,7 +20,7 @@ geographical and environmental conditions.
 - [x] The system must be printed onto a PCB card.
 - [x] The camera support allowing the camera to turn around all three axes must be modeled and printed.
 
-## 3- The Technological Stack
+## 3- The Technological Stack :
 
 Currently, the project uses the following technologies:
 
@@ -41,7 +41,7 @@ Currently, the project uses the following technologies:
 - Flutter (UI development kit)
 - Dart (for mobile app development )
 
-## 4- Solution Architecture
+## 4- Solution Architecture :
 
 ### 4.1- Hardware Architecture
 
@@ -73,7 +73,7 @@ Currently, the project uses the following technologies:
     <img src="./images/computerVisionflow.jpg" alt="Computer Vision" />
 </div>
 
-## 3D Modeling
+## 3D Modeling :
 
 This section highlights the various components we modeled for our solution. Since the mechanical aspect of the project was not the main focus, we do not go into detail on the technical drawings.
 
@@ -84,7 +84,7 @@ This section highlights the various components we modeled for our solution. Sinc
 - **Figure 4.2.3** – Battery Holder: A custom-designed holder for securing the batteries that power the system.
   ![Battery Holder](./images/battery_holder.png)
 
-## 5- Embedded System
+## 5- Embedded System :
 
 ## Strategies for Power Efficiency
 
@@ -167,7 +167,7 @@ After evaluation, UART was chosen for its simplicity and sufficient data rate, a
 The communication involves initialization, data transmission triggers, and acknowledgment of received data between the Raspberry Pi and ESP32.
 
 
-## 6- Computer Vision
+## 6- Computer Vision :
 
 ## Cross Detection
 
@@ -200,7 +200,7 @@ Additionally, the alignment of the cross is considered by calculating its deviat
 ### Approach Limits
 The algorithm can theoretically detect a cross with an opacity level of 6%, but in practice, it achieves around 25%.
 
-## Mathematical Approach
+## Mathematical Approach :
 
 ### Overview
 Let (X, Y, Z) be the orthonormal reference attached to the camera, where Z is vertical and X points at the detected object. The orientations the camera must adjust to center the detected object are represented as θX, θY, and θZ.
@@ -219,7 +219,7 @@ To reduce computational load, the approximation tan(θ) ≈ θ is used when θ a
 ![Absolute Error |tan(θ) - θ|](./images/tanx_-_x.png)
 
 
-## Bluetooth Communication for Mobile Application
+## Bluetooth Communication for Mobile Application :
 
 ### Bluetooth Overview
 Bluetooth is a wireless communication protocol designed for short-range data exchange between devices. Operating in the 2.4 GHz ISM band, it supports both point-to-point and point-to-multipoint connections. Bluetooth is widely used in consumer electronics for applications such as wireless audio, file transfers, and peripheral connections.
